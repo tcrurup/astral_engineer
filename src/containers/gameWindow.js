@@ -13,7 +13,8 @@ class GameWindow{
         this.renderer = this.initializeRenderer()
         this.camera.position.setZ(30)
         console.log('starting dog creation')
-        new Dog(this.scene)
+        //new Dog(this.scene)
+        this.torus()
         this.render()
     }
 
