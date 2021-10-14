@@ -1,3 +1,5 @@
 export const config = {
-    debug: false
+    debug: true,
+    width: 800, 
+    height: 600
 }
